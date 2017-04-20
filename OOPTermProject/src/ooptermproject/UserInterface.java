@@ -9,7 +9,7 @@ package ooptermproject;
  *
  * @author ringo
  */
-public class OOPTermProject {
+public class UserInterface {
 
     /**
      * @param args the command line arguments
