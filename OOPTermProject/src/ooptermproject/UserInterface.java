@@ -9,6 +9,7 @@ package ooptermproject;
  *
  * @author ringo
  */
+import java.util.*;
 public class UserInterface {
 
     /**
@@ -16,6 +17,12 @@ public class UserInterface {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        String userName, password;
+        Scanner input = new Scanner(System.in);
+            
+        
+        
+        
     }
     
 }
