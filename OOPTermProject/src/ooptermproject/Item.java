@@ -9,8 +9,6 @@ package ooptermproject;
  *
  * @author ringo
  */
-public class CMDCheckout implements CMDInterface{
-    Aggregator agg;
-    
+public class Item {
     
 }

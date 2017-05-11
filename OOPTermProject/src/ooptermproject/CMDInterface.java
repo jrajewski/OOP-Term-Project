@@ -9,6 +9,6 @@ package ooptermproject;
  *
  * @author ringo
  */
-public interface CMDInterface {
+public interface CMDInterface{
     Object execute();
 }
