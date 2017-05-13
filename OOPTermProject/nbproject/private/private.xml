@@ -2,6 +2,22 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/Tax.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/Decorator.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/Coupon100Get10Percent.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/MDTax.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/AddOn.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/BasicReceipt.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/PreDecorator.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/PATax.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/HolidayGreeting.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/CMDCheckout.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/Receipt.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/CMDInterface.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/PrimeCustomerFreeShipping.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/PostDecorator.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/DETax.java</file>
+        </group>
     </open-files>
 </project-private>
