@@ -10,5 +10,14 @@ package ooptermproject;
  * @author ringo
  */
 public class CMDLogin implements CMDInterface{
+    Aggregator agg;
     
+    public CMDLogin(Aggregator agg){
+        this.agg = agg;
+    }
+    
+    //return some type of data here
+    public Object execute(){
+        
+    }
 }

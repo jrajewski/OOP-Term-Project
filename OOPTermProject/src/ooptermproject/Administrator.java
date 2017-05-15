@@ -7,8 +7,11 @@ package ooptermproject;
 
 /**
  *
- * @author ringo
+ * @author Joseph Rajewski
  */
-public class Administrator {
+public class Administrator extends User{
     
+    public Administrator(){
+        
+    }
 }

@@ -9,6 +9,6 @@ package ooptermproject;
  *
  * @author ringo
  */
-public class UserAccount {
+public class User {
     
 }
