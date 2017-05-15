@@ -12,5 +12,12 @@ package ooptermproject;
 public class CMDCheckout implements CMDInterface{
     Aggregator agg;
     
+    public CMDCheckout(Aggregator agg){
+        this.agg = agg;
+    }
     
+    
+    public Object execute(){
+        
+    }
 }

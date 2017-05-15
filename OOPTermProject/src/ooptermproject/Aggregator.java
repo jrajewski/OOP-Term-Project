@@ -10,5 +10,11 @@ package ooptermproject;
  * @author ringo
  */
 public class Aggregator {
+    public static ShoppingCart myCart;
+    public static Catalog catalog;
     
+    public ShoppingCart setShoppingCart(ShoppingCart cart){
+        myCart = cart;
+        return myCart;
+    }
 }

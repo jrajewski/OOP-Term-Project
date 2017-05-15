@@ -10,6 +10,7 @@ package ooptermproject;
  * @author Joseph Rajewski
  */
 public class SystemInterface {
+    //use system interface to configure what to give back to UI
     private static Invoker invoker;
     
     public Invoker setInvoker(Invoker invoker){
@@ -18,9 +19,10 @@ public class SystemInterface {
     }
     
     public static boolean login(String uName, String password){
-        boolean isAdmin = isAdmin(uName, password);
-        if(isAdmin)
-            
+        //Valid user ID's stored here
+        
+        User user = invoker.login();
+        
     }
     
     public static boolean isAdmin(String uName, String password){

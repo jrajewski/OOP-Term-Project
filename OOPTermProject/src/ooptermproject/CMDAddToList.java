@@ -10,5 +10,14 @@ package ooptermproject;
  * @author ringo
  */
 public class CMDAddToList implements CMDInterface{
+    Aggregator agg;
     
+    public CMDAddToList(Aggregator agg){
+        this.agg = agg;
+    }
+    
+    
+    public Object execute(){
+        
+    }
 }

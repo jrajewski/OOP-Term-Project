@@ -4,11 +4,21 @@
  * and open the template in the editor.
  */
 package ooptermproject;
-
+import java.util.ArrayList;
 /**
  *
- * @author ringo
+ * @author Joseph Rajewski
  */
 public class ShoppingCart {
+    private ArrayList myCart;
     
+    public ShoppingCart(){
+        myCart = new ArrayList<Item>();
+    }
+    
+    //adds item and returns updated shopping cart
+    public ShoppingCart addItemToCart(Item item){
+        myCart.add(item);
+        return this;
+    }
 }

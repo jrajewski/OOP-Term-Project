@@ -7,8 +7,17 @@ package ooptermproject;
 
 /**
  *
- * @author ringo
+ * @author Joseph Rajewski
  */
 public class CMDPrintReceipt implements CMDInterface{
+    Aggregator agg;
     
+    public CMDPrintReceipt(Aggregator agg){
+        this.agg = agg;
+    }
+    
+    
+    public Object execute(){
+        
+    }
 }

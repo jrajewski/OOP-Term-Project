@@ -10,5 +10,14 @@ package ooptermproject;
  * @author ringo
  */
 public class CMDAddtoCart implements CMDInterface{
+    Aggregator agg;
     
+    public CMDAddtoCart(Aggregator agg){
+        this.agg = agg;
+    }
+    
+    //returns updated shopping cart
+    public ShoppingCart execute(){
+        
+    }
 }

@@ -10,5 +10,14 @@ package ooptermproject;
  * @author ringo
  */
 public class CMDEditCatalogItem implements CMDInterface{
+    Aggregator agg;
     
+    public CMDEditCatalogItem(Aggregator agg){
+        this.agg = agg;
+    }
+    
+    
+    public Object execute(){
+        
+    }
 }
