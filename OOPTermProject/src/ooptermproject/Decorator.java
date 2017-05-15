@@ -7,7 +7,7 @@ package ooptermproject;
 
 /**
  *
- * @author ringo
+ * @author Joseph Rajewski
  */
 public abstract class Decorator {
     

@@ -7,7 +7,7 @@ package ooptermproject;
 
 /**
  *
- * @author ringo
+ * @author Joseph Rajewski
  */
 import java.util.*;
 public class UserInterface {
@@ -19,10 +19,27 @@ public class UserInterface {
         // TODO code application logic here
         String userName, password;
         Scanner input = new Scanner(System.in);
+        boolean customer;    
+        Invoker invoker = new Invoker(new Aggregator());
+        
+        System.out.println("Enter your username: ");
+        userName = input.next();
+        
+        System.out.println("Enter your password: ");
+        password = input.next();
+        
+        customer = SystemInterface.login(userName, password);
+        
+        //if the person who logged in is a customer, display these options
+        //fix security issue later- if a person gives invalid creds, admin privilegs
+        //are given by default
+        if(customer){
             
-        
-        
-        
+        }
+        //if not, display admin options
+        else if(!customer){
+            
+        }
     }
     
 }
