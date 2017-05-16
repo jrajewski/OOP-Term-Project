@@ -10,14 +10,17 @@ package ooptermproject;
  * @author ringo
  */
 public class CMDAddToList implements CMDInterface{
-    Aggregator agg;
+    private Aggregator agg;
+    private Item item;;
     
-    public CMDAddToList(Aggregator agg){
+    public CMDAddToList(Aggregator agg, Item item){
         this.agg = agg;
+        this.item = item;
     }
     
     
-    public Object execute(){
-        
+    public ShoppingList execute(){
+        ShoppingList cmdList = agg.myList.addItemToShopList(item);
+        return cmdList;
     }
 }

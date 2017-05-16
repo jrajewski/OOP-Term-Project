@@ -10,14 +10,16 @@ package ooptermproject;
  * @author Joseph Rajewski
  */
 public class CMDAddToCatalog implements CMDInterface{
-    Aggregator agg;
+    private Aggregator agg;
+    private Item item;
     
-    public CMDAddToCatalog(Aggregator agg){
+    public CMDAddToCatalog(Aggregator agg, Item item){
         this.agg = agg;
+        this.item = item;
     }
     
-    
-    public Object execute(){
-        
+    //adds item to catalog and returns it
+    public Item execute(){
+        return agg.getCatalog().addItem(item);
     }
 }

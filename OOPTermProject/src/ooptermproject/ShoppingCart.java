@@ -26,4 +26,6 @@ public class ShoppingCart {
     public ArrayList<Item> getCartList(){
         return this.myCart;
     }
+    
+    //consider adding toString override for the cart
 }
