@@ -15,7 +15,22 @@ public class Item {
     private double cost;
     private String department;
     
+    public Item(int index, String name, double cost, String department){
+        this.name = name;
+        this.index = index;
+        this.cost = cost;
+        this.department = department;
+    }
+    
     public int getIndex(){
         return this.index;
+    }
+    
+    public String toString(){
+        return "Index: " + index + "\n"
+                + "Name: " + name + "\n"
+                + "Cost: " + cost + "\n"
+                + "Department: " + department + "\n\n";
+                
     }
 }

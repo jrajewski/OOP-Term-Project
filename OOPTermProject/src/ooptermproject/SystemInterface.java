@@ -12,6 +12,7 @@ import java.util.ArrayList;
 public class SystemInterface {
     //use system interface to configure what to give back to UI
     private static Invoker invoker;
+    public static User user;
     
     public static Invoker setInvoker(Invoker invoker){
       SystemInterface.invoker = invoker;
@@ -63,13 +64,34 @@ public class SystemInterface {
         //gets the item form the catalog based on index given to SI
         Item item = invoker.getItemByIndex(index);
         //adds this item to shopList, and gets the ArrayList field for the shopList
-        ArrayList<Item> shopList = invoker.addCart(item).getCartList();
+        ArrayList<Item> shopList = invoker.addList(item).getShopList();
         ArrayList<String> shopListString = null;
         for(int i = 0; i < shopList.size(); i++)
             shopListString.add(Integer.toString(shopList.get(i).getIndex()));
         return shopListString;
     }
     
+    //plan to return list of purchased items
+    public static ArrayList<String> checkout(){
+        ArrayList<String> checkoutCart = new ArrayList<String>();
+        //TODO logic here
+        return checkoutCart;
+    }
     
+    //admin calls
+    
+    public static ArrayList<String> addToCatalog(String name, double cost, String department){
+        int index = Catalog.getCatalog().getCatalogList().size() + 1;
+        String itemAddedString = invoker.addToCatalog(new Item(index, name, cost, department)).toString();
+        ArrayList<String> itemAdded = new ArrayList<String>();
+        itemAdded.add(itemAddedString);
+        return itemAdded;
+    }
+    
+    //index does not change
+    public static ArrayList<String> editCatalogItem(int index, String newName, double newCost, String newDepartment){
+        
+        
+    }
     
 }

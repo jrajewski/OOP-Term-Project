@@ -12,10 +12,30 @@ package ooptermproject;
 import java.util.ArrayList;
 
 public class Catalog {
-    private ArrayList<Item> catalog = new ArrayList<Item>();
+    private ArrayList<Item> catalogList;
+    private static Catalog catalog;
+    
+    //Singleton
+    private Catalog(){
+        //Add items here
+        catalogList = new ArrayList<Item>();
+    }
+    
+    public static Catalog getCatalog(){
+        if(catalog != null)
+            return catalog;
+        else
+            return new Catalog();
+    }
     
     public ArrayList<Item> getCatalogList(){
-        return catalog;
+        return catalogList;
+    }
+    
+    //should only be called when admin is logged in
+    public Item addItem(Item item){
+        catalogList.add(item);
+        return item;
     }
     
     //Iterator getters

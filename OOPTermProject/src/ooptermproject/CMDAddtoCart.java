@@ -9,11 +9,11 @@ package ooptermproject;
  *
  * @author ringo
  */
-public class CMDAddtoCart implements CMDInterface{
+public class CMDAddToCart implements CMDInterface{
     Aggregator agg;
     Item item;
     
-    public CMDAddtoCart(Aggregator agg, Item item){
+    public CMDAddToCart(Aggregator agg, Item item){
         this.agg = agg;
         this.item = item;
     }
