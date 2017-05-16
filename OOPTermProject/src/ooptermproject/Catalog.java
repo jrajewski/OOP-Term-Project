@@ -19,20 +19,21 @@ public class Catalog {
     }
     
     //Iterator getters
+    //need to update these after iterators are implemented
     public CatalogIteratorInterface getMinPriceIterator(){
-        
+        return new MinPriceIterator();
     }
     
     public CatalogIteratorInterface getMaxPriceIterator(){
-        
+        return new MaxPriceIterator();
     }
     
     public CatalogIteratorInterface getWholeCatalogIterator(){
-        
+        return new WholeCatalogIterator();
     }
     
     public CatalogIteratorInterface getDepartmentIterator(){
-        
+        return new DepartmentIterator();
     }
     
     

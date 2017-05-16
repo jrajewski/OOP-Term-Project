@@ -22,14 +22,16 @@ public class Invoker {
         return user;
     }
     
+    //I think this return statement is okay, because this execute method
+    //returns a cart, but verify later
     public ShoppingCart addCart(Item item){
         CMDAddToCart addCart = new CMDAddToCart(agg, item);
-        ShoppingCart myCart = 
-                addItemCart = addCart.execute();
-        return addItemCart;
+        return addCart.execute();
     }
     
+    //returns to the caller the item with the index that was passed here
     public Item getItemByIndex(int index){
-        
+        CMDGetItemByIndex getItem = new CMDGetItemByIndex(agg, index);
+        return getItem.execute();
     }
 }
