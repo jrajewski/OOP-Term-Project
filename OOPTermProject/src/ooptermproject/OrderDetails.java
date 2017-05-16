@@ -7,8 +7,8 @@ package ooptermproject;
 
 /**
  *
- * @author ringo
+ * @author Joseph Rajewski
  */
 public class OrderDetails {
-    
+    //may not need this class since the decorator pattern creates a receipt for us
 }

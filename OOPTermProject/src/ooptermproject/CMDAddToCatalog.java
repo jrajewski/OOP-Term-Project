@@ -7,8 +7,17 @@ package ooptermproject;
 
 /**
  *
- * @author ringo
+ * @author Joseph Rajewski
  */
 public class CMDAddToCatalog implements CMDInterface{
+    Aggregator agg;
     
+    public CMDAddToCatalog(Aggregator agg){
+        this.agg = agg;
+    }
+    
+    
+    public Object execute(){
+        
+    }
 }

@@ -10,16 +10,26 @@ package ooptermproject;
  * @author Joseph Rajewski
  */
 public class Invoker {
-    private Aggregator aggregator;
+    private Aggregator agg;
   
-    public Invoker(Aggregator aggregator){
-        this.aggregator = aggregator;
+    public Invoker(Aggregator agg){
+        this.agg = agg;
     }
     
-    //design concern- return type may not be same across all commands
-    public String[] login(){
-        CMDLogin login = new CMDLogin(aggregator);
-        String[] items = login.execute();
-        return items;
-  }
+    public User login(boolean isCustomer, boolean isAdmin){
+        CMDLogin login = new CMDLogin(agg, isCustomer, isAdmin);
+        User user = login.execute();
+        return user;
+    }
+    
+    public ShoppingCart addCart(Item item){
+        CMDAddToCart addCart = new CMDAddToCart(agg, item);
+        ShoppingCart myCart = 
+                addItemCart = addCart.execute();
+        return addItemCart;
+    }
+    
+    public Item getItemByIndex(int index){
+        
+    }
 }

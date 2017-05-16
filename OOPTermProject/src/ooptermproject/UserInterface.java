@@ -20,7 +20,9 @@ public class UserInterface {
         String userName, password;
         Scanner input = new Scanner(System.in);
         boolean customer;    
+        
         Invoker invoker = new Invoker(new Aggregator());
+        SystemInterface.setInvoker(invoker);
         
         System.out.println("Enter your username: ");
         userName = input.next();

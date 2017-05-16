@@ -3,21 +3,22 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/Tax.java</file>
-            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/Decorator.java</file>
-            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/Coupon100Get10Percent.java</file>
-            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/MDTax.java</file>
-            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/AddOn.java</file>
-            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/BasicReceipt.java</file>
-            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/PreDecorator.java</file>
-            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/PATax.java</file>
-            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/HolidayGreeting.java</file>
-            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/CMDCheckout.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/Catalog.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/Invoker.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/UserInterface.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/Customer.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/SystemInterface.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/InventoryState.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/ShoppingList.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/CMDLogin.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/Aggregator.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/CMDAddtoCart.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/OrderDetails.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/Administrator.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/ShoppingCart.java</file>
             <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/Receipt.java</file>
-            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/CMDInterface.java</file>
-            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/PrimeCustomerFreeShipping.java</file>
-            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/PostDecorator.java</file>
-            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/DETax.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/User.java</file>
+            <file>file:/C:/Users/ringo/Documents/GitHub/OOP-Term-Project/OOPTermProject/src/ooptermproject/Item.java</file>
         </group>
     </open-files>
 </project-private>
