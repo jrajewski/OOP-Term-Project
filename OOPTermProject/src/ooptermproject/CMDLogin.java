@@ -11,9 +11,10 @@ package ooptermproject;
  */
 public class CMDLogin implements CMDInterface{
     Aggregator agg;
-    boolean customer;
+    //user should only be of type customer or admin
+    boolean customer, admin;
     
-    public CMDLogin(Aggregator agg, boolean customer){
+    public CMDLogin(Aggregator agg, boolean customer, boolean admin){
         this.agg = agg;
         this.customer = customer;
     }
@@ -22,7 +23,8 @@ public class CMDLogin implements CMDInterface{
     public User execute(){
         if(customer)
             return new Customer();
-        else if(!customer)
+        else if(admin)
             return new Administrator();
+        return null;
     }
 }

@@ -10,5 +10,12 @@ package ooptermproject;
  * @author ringo
  */
 public class Item {
+    private int index;
+    private String name;
+    private double cost;
+    private String department;
     
+    public int getIndex(){
+        return this.index;
+    }
 }

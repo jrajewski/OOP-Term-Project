@@ -20,6 +20,7 @@ public class Customer extends User{
     
     public Customer(){
         cart = new ShoppingCart();
+        Aggregator.
         shoppingList = new ShoppingList();
     }
 }

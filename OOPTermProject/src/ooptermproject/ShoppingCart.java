@@ -10,7 +10,7 @@ import java.util.ArrayList;
  * @author Joseph Rajewski
  */
 public class ShoppingCart {
-    private ArrayList myCart;
+    private ArrayList<Item> myCart;
     
     public ShoppingCart(){
         myCart = new ArrayList<Item>();
@@ -20,5 +20,10 @@ public class ShoppingCart {
     public ShoppingCart addItemToCart(Item item){
         myCart.add(item);
         return this;
+    }
+    
+    //returns the ArrayList of the items in the cart
+    public ArrayList<Item> getCartList(){
+        return this.myCart;
     }
 }

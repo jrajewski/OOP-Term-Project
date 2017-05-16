@@ -16,17 +16,20 @@ public class Invoker {
         this.agg = agg;
     }
     
-    //design concern- return type may not be same across all commands
     public User login(boolean isCustomer, boolean isAdmin){
         CMDLogin login = new CMDLogin(agg, isCustomer, isAdmin);
         User user = login.execute();
         return user;
     }
     
-    public Item addCart(ShoppingCart myCart){
-        CMDAddToCart addCart = new CMDAddToCart(agg);
+    public ShoppingCart addCart(Item item){
+        CMDAddToCart addCart = new CMDAddToCart(agg, item);
         ShoppingCart myCart = 
                 addItemCart = addCart.execute();
         return addItemCart;
+    }
+    
+    public Item getItemByIndex(int index){
+        
     }
 }
