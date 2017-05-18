@@ -1,3 +1,4 @@
+package ooptermproject;
 import java.io*;
 
 public class Receipt extends ShoppingCart{
